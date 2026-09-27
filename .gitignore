@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+storybook-static/
+*.tsbuildinfo
+
+# Tool caches
+.turbo/
+.eslintcache
+.stylelintcache
+coverage/
+playwright-report/
+test-results/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# OS and editor
+.DS_Store
+*.log
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

@@ -1,0 +1,33 @@
+{
+  "name": "@mission-ui/map",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Map shell, offline basemaps, data layers, and MIL-STD-2525 symbology.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@mission-ui/tokens": "workspace:*",
+    "@mission-ui/ui": "workspace:*",
+    "@mission-ui/mission": "workspace:*"
+  },
+  "devDependencies": {
+    "@mission-ui/eslint-config": "workspace:*",
+    "@mission-ui/tsconfig": "workspace:*",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}

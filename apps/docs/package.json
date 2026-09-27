@@ -1,0 +1,14 @@
+{
+  "name": "@mission-ui/docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Storybook docs site and component test harness for Mission UI.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@mission-ui/tokens": "workspace:*",
+    "@mission-ui/ui": "workspace:*",
+    "@mission-ui/mission": "workspace:*",
+    "@mission-ui/map": "workspace:*"
+  }
+}

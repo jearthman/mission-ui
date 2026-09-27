@@ -1,0 +1,27 @@
+packages:
+  - apps/*
+  - packages/*
+  - tooling/*
+
+# Shared dependency versions. Packages reference these with "catalog:" so the
+# whole repo moves in lockstep and the SBOM lists one version of each tool.
+catalog:
+  '@changesets/cli': ^3.0.3
+  '@commitlint/cli': ^21.2.3
+  '@commitlint/config-conventional': ^21.2.3
+  '@eslint/js': ^10.0.1
+  eslint: ^10.11.0
+  globals: ^17.12.0
+  husky: ^9.1.7
+  prettier: ^3.9.9
+  stylelint: ^17.15.0
+  stylelint-config-standard: ^40.0.0
+  turbo: ^2.11.4
+  # typescript-eslint 8.x supports TypeScript <6.1. Hold at 6.0 until it
+  # supports the TypeScript 7 native compiler. See ADR-0001.
+  typescript: ~6.0.3
+  typescript-eslint: ^8.70.1
+
+# Install scripts are blocked unless listed here. Keep this list short; every
+# entry needs a reason in the PR that adds it.
+allowBuilds: {}

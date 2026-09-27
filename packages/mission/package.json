@@ -1,0 +1,32 @@
+{
+  "name": "@mission-ui/mission",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Mission domain components: data tables, status, notifications, time, and entities.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@mission-ui/tokens": "workspace:*",
+    "@mission-ui/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@mission-ui/eslint-config": "workspace:*",
+    "@mission-ui/tsconfig": "workspace:*",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}

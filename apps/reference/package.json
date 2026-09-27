@@ -1,0 +1,13 @@
+{
+  "name": "@mission-ui/reference",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Sample operational app built only from Mission UI kit components.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@mission-ui/ui": "workspace:*",
+    "@mission-ui/mission": "workspace:*",
+    "@mission-ui/map": "workspace:*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Mission UI library package",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "rootDir": "${configDir}/src",
+    "outDir": "${configDir}/dist",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "include": ["${configDir}/src"]
+}

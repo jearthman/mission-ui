@@ -1,0 +1,8 @@
+pnpm-lock.yaml
+dist/
+.turbo/
+coverage/
+storybook-static/
+**/CHANGELOG.md
+# Source document for the build plan; keep it byte-for-byte as authored.
+docs/build-plan.md
