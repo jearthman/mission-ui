@@ -1,0 +1,24 @@
+{
+  "marking": {
+    "banner": {
+      "height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.5,
+          "unit": "rem"
+        },
+        "$description": "Height of the top and bottom overall marking banners. Fixed across densities so the marking stays legible."
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{font.weight.bold}",
+        "$description": "Banner text weight. Banners are bold, centered, and all capitals."
+      },
+      "z-index": {
+        "$type": "number",
+        "$value": "{z.marking}",
+        "$description": "Banner stacking order, above every overlay."
+      }
+    }
+  }
+}

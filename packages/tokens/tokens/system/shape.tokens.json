@@ -1,0 +1,31 @@
+{
+  "radius": {
+    "$type": "dimension",
+    "control": {
+      "$value": "{radius.4}",
+      "$description": "Buttons, inputs, and other controls."
+    },
+    "container": {
+      "$value": "{radius.4}",
+      "$description": "Panels, cards, dialogs, and popovers."
+    },
+    "pill": {
+      "$value": "{radius.full}",
+      "$description": "Status chips, tags, and toggles."
+    }
+  },
+  "border": {
+    "width": {
+      "$type": "dimension",
+      "$description": "Border widths.",
+      "default": {
+        "$value": "{border-width.1}",
+        "$description": "Default border and divider width."
+      },
+      "strong": {
+        "$value": "{border-width.2}",
+        "$description": "Emphasized borders, such as the selected-card outline or status borders on light surfaces."
+      }
+    }
+  }
+}

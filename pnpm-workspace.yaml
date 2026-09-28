@@ -10,17 +10,22 @@ catalog:
   '@commitlint/cli': ^21.2.3
   '@commitlint/config-conventional': ^21.2.3
   '@eslint/js': ^10.0.1
+  '@types/node': ^24.19.0
+  colorjs.io: ^0.7.1
   eslint: ^10.11.0
   globals: ^17.12.0
   husky: ^9.1.7
   prettier: ^3.9.9
+  style-dictionary: ^5.5.5
   stylelint: ^17.15.0
   stylelint-config-standard: ^40.0.0
+  tailwindcss: ^4.3.3
   turbo: ^2.11.4
   # typescript-eslint 8.x supports TypeScript <6.1. Hold at 6.0 until it
   # supports the TypeScript 7 native compiler. See ADR-0001.
   typescript: ~6.0.3
   typescript-eslint: ^8.70.1
+  vitest: ^5.0.2
 
 # Install scripts are blocked unless listed here. Keep this list short; every
 # entry needs a reason in the PR that adds it.

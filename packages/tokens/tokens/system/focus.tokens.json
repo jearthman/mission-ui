@@ -1,0 +1,15 @@
+{
+  "focus": {
+    "ring": {
+      "$type": "dimension",
+      "width": {
+        "$value": "{border-width.2}",
+        "$description": "Focus ring thickness."
+      },
+      "offset": {
+        "$value": "{border-width.2}",
+        "$description": "Gap between a control and its focus ring, so the ring sits against the surface."
+      }
+    }
+  }
+}

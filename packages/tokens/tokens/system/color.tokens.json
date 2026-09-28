@@ -1,0 +1,251 @@
+{
+  "color": {
+    "$type": "color",
+    "surface": {
+      "$description": "Backgrounds, from sunken to overlay. Lighter surfaces sit closer to the user in the dark theme.",
+      "sunken": {
+        "$value": "{color.gray.975}",
+        "$description": "Recessed areas behind the base surface: wells, map letterboxing, input backgrounds on raised panels."
+      },
+      "base": {
+        "$value": "{color.gray.950}",
+        "$description": "App background on ops screens. The canvas behind panels, tables, and the map."
+      },
+      "raised": {
+        "$value": "{color.gray.925}",
+        "$description": "Panels, cards, table headers, and docked panes that sit on the base surface."
+      },
+      "overlay": {
+        "$value": "{color.gray.900}",
+        "$description": "Menus, popovers, dialogs, and toasts that float above other content."
+      },
+      "inverse": {
+        "$value": "{color.gray.100}",
+        "$description": "Tooltips and other small callouts that invert the theme. Pair with text.inverse."
+      }
+    },
+    "text": {
+      "$description": "Text colors. Primary and secondary meet 4.5:1 on every surface.",
+      "primary": {
+        "$value": "{color.gray.100}",
+        "$description": "Default text and icons. Use for content the operator must read."
+      },
+      "secondary": {
+        "$value": "{color.gray.300}",
+        "$description": "Supporting text: labels, metadata, timestamps, units, and placeholder text."
+      },
+      "disabled": {
+        "$value": "{color.gray.600}",
+        "$description": "Text of disabled controls only. Exempt from contrast minimums (WCAG 1.4.3); never use it for content that must be read."
+      },
+      "inverse": {
+        "$value": "{color.gray.950}",
+        "$description": "Text on surface.inverse."
+      }
+    },
+    "border": {
+      "$description": "Borders and dividers. Ops UIs lean on borders more than shadows.",
+      "subtle": {
+        "$value": "{color.gray.800}",
+        "$description": "Decorative dividers and table gridlines. Below 3:1 by design; never the only boundary of a control."
+      },
+      "default": {
+        "$value": "{color.gray.500}",
+        "$description": "Control boundaries: inputs, buttons, checkboxes, and panel outlines. Meets 3:1 against every surface (WCAG 1.4.11)."
+      },
+      "strong": {
+        "$value": "{color.gray.300}",
+        "$description": "Emphasized boundaries: selected cards, active panes, and high-contrast outlines."
+      }
+    },
+    "interactive": {
+      "$description": "Colors for things the operator can act on.",
+      "fill": {
+        "$value": "{color.blue.600}",
+        "$description": "Primary action background, such as the main button in a dialog."
+      },
+      "fill-hover": {
+        "$value": "{color.blue.700}",
+        "$description": "Primary action background while hovered."
+      },
+      "fill-pressed": {
+        "$value": "{color.blue.800}",
+        "$description": "Primary action background while pressed."
+      },
+      "on-fill": {
+        "$value": "{color.gray.0}",
+        "$description": "Text and icons on interactive.fill and its hover and pressed states."
+      },
+      "text": {
+        "$value": "{color.blue.300}",
+        "$description": "Links and quiet or ghost button labels. Meets 4.5:1 on every surface."
+      },
+      "hover": {
+        "$value": "{color.gray.850}",
+        "$description": "Background of hovered rows, list items, and menu items."
+      },
+      "selected": {
+        "$value": "{color.blue.950}",
+        "$description": "Background of selected rows, list items, and tabs. Text on it uses text.primary."
+      }
+    },
+    "focus": {
+      "$description": "Keyboard focus indicator.",
+      "ring": {
+        "$value": "{color.cyan.300}",
+        "$description": "Focus ring color. Meets 3:1 against every surface and selected background it can appear next to."
+      }
+    },
+    "status": {
+      "$description": "Six-level status system following the Astro color-temperature model: critical, serious, caution, normal, standby, off. Always pair a status color with a status symbol shape or text; never use color alone (WCAG 1.4.1).",
+      "critical": {
+        "$description": "Critical: a condition that needs immediate action, such as lost link or an active threat. Red is reserved for this level; never use it decoratively or for ordinary errors.",
+        "fill": {
+          "$value": "{color.red.500}",
+          "$description": "Critical status fill for symbols, chips, and badges. In the light theme pair it with the border token; the fill alone can fall below 3:1 on light surfaces."
+        },
+        "border": {
+          "$value": "{color.red.500}",
+          "$description": "Critical status border. Meets 3:1 against surfaces in every theme."
+        },
+        "on": {
+          "$value": "{color.gray.1000}",
+          "$description": "Text and icons placed on the critical status fill."
+        }
+      },
+      "serious": {
+        "$description": "Serious: an error or degraded condition that needs attention soon.",
+        "fill": {
+          "$value": "{color.orange.400}",
+          "$description": "Serious status fill for symbols, chips, and badges. In the light theme pair it with the border token; the fill alone can fall below 3:1 on light surfaces."
+        },
+        "border": {
+          "$value": "{color.orange.400}",
+          "$description": "Serious status border. Meets 3:1 against surfaces in every theme."
+        },
+        "on": {
+          "$value": "{color.gray.1000}",
+          "$description": "Text and icons placed on the serious status fill."
+        }
+      },
+      "caution": {
+        "$description": "Caution: an unstable or unusual condition worth watching.",
+        "fill": {
+          "$value": "{color.yellow.200}",
+          "$description": "Caution status fill for symbols, chips, and badges. In the light theme pair it with the border token; the fill alone can fall below 3:1 on light surfaces."
+        },
+        "border": {
+          "$value": "{color.yellow.200}",
+          "$description": "Caution status border. Meets 3:1 against surfaces in every theme."
+        },
+        "on": {
+          "$value": "{color.gray.1000}",
+          "$description": "Text and icons placed on the caution status fill."
+        }
+      },
+      "normal": {
+        "$description": "Normal: operating as expected.",
+        "fill": {
+          "$value": "{color.green.400}",
+          "$description": "Normal status fill for symbols, chips, and badges. In the light theme pair it with the border token; the fill alone can fall below 3:1 on light surfaces."
+        },
+        "border": {
+          "$value": "{color.green.400}",
+          "$description": "Normal status border. Meets 3:1 against surfaces in every theme."
+        },
+        "on": {
+          "$value": "{color.gray.1000}",
+          "$description": "Text and icons placed on the normal status fill."
+        }
+      },
+      "standby": {
+        "$description": "Standby: ready, available, or enabled but not active.",
+        "fill": {
+          "$value": "{color.cyan.400}",
+          "$description": "Standby status fill for symbols, chips, and badges. In the light theme pair it with the border token; the fill alone can fall below 3:1 on light surfaces."
+        },
+        "border": {
+          "$value": "{color.cyan.400}",
+          "$description": "Standby status border. Meets 3:1 against surfaces in every theme."
+        },
+        "on": {
+          "$value": "{color.gray.1000}",
+          "$description": "Text and icons placed on the standby status fill."
+        }
+      },
+      "off": {
+        "$description": "Off: unavailable or disabled.",
+        "fill": {
+          "$value": "{color.gray.400}",
+          "$description": "Off status fill for symbols, chips, and badges. In the light theme pair it with the border token; the fill alone can fall below 3:1 on light surfaces."
+        },
+        "border": {
+          "$value": "{color.gray.400}",
+          "$description": "Off status border. Meets 3:1 against surfaces in every theme."
+        },
+        "on": {
+          "$value": "{color.gray.1000}",
+          "$description": "Text and icons placed on the off status fill."
+        }
+      }
+    },
+    "categorical": {
+      "1": {
+        "$value": "{color.blue.400}",
+        "$description": "Categorical series 1. Assign series in order."
+      },
+      "2": {
+        "$value": "{color.teal.400}",
+        "$description": "Categorical series 2. Assign series in order."
+      },
+      "3": {
+        "$value": "{color.violet.400}",
+        "$description": "Categorical series 3. Assign series in order."
+      },
+      "4": {
+        "$value": "{color.magenta.400}",
+        "$description": "Categorical series 4. Assign series in order."
+      },
+      "5": {
+        "$value": "{color.amber.400}",
+        "$description": "Categorical series 5. Assign series in order."
+      },
+      "6": {
+        "$value": "{color.lime.400}",
+        "$description": "Categorical series 6. Assign series in order."
+      },
+      "$description": "Categorical palette for chart series and map layers. Meets 3:1 against surface.base and surface.raised. Do not use it to signal status."
+    },
+    "sequential": {
+      "1": {
+        "$value": "{color.cyan.900}",
+        "$description": "Sequential step 1 of 7."
+      },
+      "2": {
+        "$value": "{color.cyan.800}",
+        "$description": "Sequential step 2 of 7."
+      },
+      "3": {
+        "$value": "{color.cyan.700}",
+        "$description": "Sequential step 3 of 7."
+      },
+      "4": {
+        "$value": "{color.cyan.600}",
+        "$description": "Sequential step 4 of 7."
+      },
+      "5": {
+        "$value": "{color.cyan.500}",
+        "$description": "Sequential step 5 of 7."
+      },
+      "6": {
+        "$value": "{color.cyan.300}",
+        "$description": "Sequential step 6 of 7."
+      },
+      "7": {
+        "$value": "{color.cyan.100}",
+        "$description": "Sequential step 7 of 7."
+      },
+      "$description": "Sequential scale for heatmaps and density layers, from lowest (1) to highest (7) value. Higher values contrast more with the surface in every theme."
+    }
+  }
+}

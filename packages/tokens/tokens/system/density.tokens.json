@@ -1,0 +1,39 @@
+{
+  "$description": "Density-dependent sizes, comfortable by default. The compact mode overrides these; setting data-density on <html> retunes every control.",
+  "size": {
+    "$type": "dimension",
+    "control": {
+      "height": {
+        "$value": "{dimension.36}",
+        "$description": "Height of buttons, inputs, selects, and other single-line controls. Comfortable 36 px, compact 28 px."
+      }
+    },
+    "row": {
+      "height": {
+        "$value": "{dimension.32}",
+        "$description": "Height of table and list rows. Comfortable 32 px, compact 24 px; never below the 24 px target size (WCAG 2.5.8)."
+      }
+    }
+  },
+  "space": {
+    "$type": "dimension",
+    "control": {
+      "inline": {
+        "$value": "{dimension.12}",
+        "$description": "Inline (left and right) padding inside controls."
+      }
+    },
+    "cell": {
+      "inline": {
+        "$value": "{dimension.12}",
+        "$description": "Inline padding inside table cells and list items."
+      }
+    },
+    "panel": {
+      "inset": {
+        "$value": "{dimension.16}",
+        "$description": "Padding inside panels, cards, and dialogs."
+      }
+    }
+  }
+}

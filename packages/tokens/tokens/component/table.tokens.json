@@ -1,0 +1,30 @@
+{
+  "table": {
+    "row": {
+      "height": {
+        "$type": "dimension",
+        "$value": "{size.row.height}",
+        "$description": "DataTable row height. Follows density."
+      },
+      "selected-background": {
+        "$type": "color",
+        "$value": "{color.interactive.selected}",
+        "$description": "Background of a selected DataTable row."
+      }
+    },
+    "header": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.surface.raised}",
+        "$description": "DataTable sticky header background."
+      }
+    },
+    "cell": {
+      "padding-inline": {
+        "$type": "dimension",
+        "$value": "{space.cell.inline}",
+        "$description": "DataTable cell inline padding. Follows density."
+      }
+    }
+  }
+}

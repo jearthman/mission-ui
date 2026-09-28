@@ -1,0 +1,153 @@
+{
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "sans": {
+        "$value": "{font.family.plex-sans}",
+        "$description": "Default typeface for all UI text."
+      },
+      "mono": {
+        "$value": "{font.family.plex-mono}",
+        "$description": "Monospace for identifiers, callsigns, coordinates, and code, where 0/O and 1/l/I must be unambiguous."
+      }
+    },
+    "weight": {
+      "$type": "fontWeight",
+      "normal": {
+        "$value": "{font.weight.400}",
+        "$description": "Body text and data."
+      },
+      "medium": {
+        "$value": "{font.weight.500}",
+        "$description": "Light emphasis, such as active navigation items."
+      },
+      "semibold": {
+        "$value": "{font.weight.600}",
+        "$description": "Headings, labels, and column headers."
+      },
+      "bold": {
+        "$value": "{font.weight.700}",
+        "$description": "Classification banners and rare strong emphasis."
+      }
+    },
+    "numeric": {
+      "$value": "tabular-nums slashed-zero",
+      "$description": "font-variant-numeric for data columns, clocks, and coordinates: tabular figures keep digits aligned and slashed zero separates 0 from O. DTCG 2025.10 has no type for this, so it is marked with an extension (see ADR-0003).",
+      "$extensions": {
+        "mission-ui": {
+          "cssProperty": "font-variant-numeric"
+        }
+      }
+    }
+  },
+  "type": {
+    "$type": "typography",
+    "$description": "Type styles. Each sets family, size, weight, line height, and letter spacing; line heights land on the 4 px grid.",
+    "caption": {
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.12}",
+        "fontWeight": "{font.weight.normal}",
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "rem"
+        }
+      },
+      "$description": "Timestamps, units, helper text, and other small metadata."
+    },
+    "label": {
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.12}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "rem"
+        }
+      },
+      "$description": "Form labels, column headers, and tags."
+    },
+    "body": {
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.14}",
+        "fontWeight": "{font.weight.normal}",
+        "lineHeight": 1.4286,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "rem"
+        }
+      },
+      "$description": "Default UI and data text. Pair with font.numeric for columns of numbers."
+    },
+    "body-strong": {
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.14}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": 1.4286,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "rem"
+        }
+      },
+      "$description": "Emphasized body text, such as a selected entity name."
+    },
+    "heading": {
+      "sm": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.16}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": 1.5,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "Panel and card headings."
+      },
+      "md": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.20}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": 1.4,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "Section headings within a view."
+      },
+      "lg": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.24}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": 1.3333,
+          "letterSpacing": {
+            "value": 0,
+            "unit": "rem"
+          }
+        },
+        "$description": "View titles (the one h1 per view)."
+      }
+    },
+    "display": {
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.32}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": 1.25,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "rem"
+        }
+      },
+      "$description": "Large readouts on dashboards. Use sparingly."
+    }
+  }
+}

@@ -7,22 +7,34 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
-    }
+      "types": "./dist/tokens.d.ts",
+      "default": "./dist/tokens.js"
+    },
+    "./tokens.css": "./dist/tokens.css",
+    "./theme.css": "./dist/theme.css",
+    "./tokens.json": "./dist/tokens.json"
   },
   "files": [
     "dist"
   ],
+  "sideEffects": [
+    "*.css"
+  ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "node --disable-warning=ExperimentalWarning build/cli.ts && tsc -p tsconfig.dist.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "vitest run"
   },
   "devDependencies": {
     "@mission-ui/eslint-config": "workspace:*",
     "@mission-ui/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "colorjs.io": "catalog:",
     "eslint": "catalog:",
-    "typescript": "catalog:"
+    "style-dictionary": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
   }
 }

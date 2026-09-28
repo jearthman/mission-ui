@@ -1,0 +1,31 @@
+{
+  "size": {
+    "control": {
+      "height": {
+        "$value": "{dimension.28}"
+      }
+    },
+    "row": {
+      "height": {
+        "$value": "{dimension.24}"
+      }
+    }
+  },
+  "space": {
+    "control": {
+      "inline": {
+        "$value": "{dimension.8}"
+      }
+    },
+    "cell": {
+      "inline": {
+        "$value": "{dimension.8}"
+      }
+    },
+    "panel": {
+      "inset": {
+        "$value": "{dimension.12}"
+      }
+    }
+  }
+}

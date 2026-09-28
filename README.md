@@ -2,7 +2,7 @@
 
 A design system for mission and operations software used on government and defense programs. It covers design tokens, accessible components, compliance components (DoD consent banner, session timeout, classification markings), mission data components, and an offline map.
 
-The kit is built in 13 steps, described in [docs/build-plan.md](docs/build-plan.md). Step 0, repository foundations, is complete.
+The kit is built in 13 steps, described in [docs/build-plan.md](docs/build-plan.md). Steps 0 (repository foundations) and 1 (design tokens) are complete.
 
 ## Getting started
 
@@ -14,7 +14,7 @@ pnpm install
 pnpm build
 ```
 
-Then `pnpm typecheck` and `pnpm lint` should both pass. Turborepo collects anonymous telemetry by default; turn it off once per machine:
+Then `pnpm typecheck`, `pnpm lint`, and `pnpm test` should all pass. Turborepo collects anonymous telemetry by default; turn it off once per machine:
 
 ```bash
 pnpm exec turbo telemetry disable

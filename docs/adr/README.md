@@ -4,13 +4,13 @@ Every decision that shapes the kit gets an ADR here before code is written. We u
 
 An ADR is never edited to reverse its decision. Write a new one and mark the old one `superseded by ADR-NNNN`.
 
-| ADR                             | Title                                                       | Status   |
-| ------------------------------- | ----------------------------------------------------------- | -------- |
-| [0001](0001-monorepo-layout.md) | Use a pnpm + Turborepo monorepo with one-way package layers | Accepted |
+| ADR                                    | Title                                                                 | Status   |
+| -------------------------------------- | --------------------------------------------------------------------- | -------- |
+| [0001](0001-monorepo-layout.md)        | Use a pnpm + Turborepo monorepo with one-way package layers           | Accepted |
+| [0003](0003-token-tiers-and-themes.md) | Three token tiers, with themes, density, and motion as override modes | Proposed |
 
 Planned by the build plan:
 
 | ADR  | Topic                                               | Step |
 | ---- | --------------------------------------------------- | ---- |
 | 0002 | Primitive library: React Aria Components vs Base UI | 3    |
-| 0003 | Token tier model and theme strategy                 | 1    |

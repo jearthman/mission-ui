@@ -1,3 +1,10 @@
 {
-  "extends": "@mission-ui/tsconfig/library.json"
+  "extends": "@mission-ui/tsconfig/base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "types": ["node"]
+  },
+  "include": ["build", "test", "vitest.config.ts"]
 }

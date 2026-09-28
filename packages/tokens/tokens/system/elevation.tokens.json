@@ -1,0 +1,60 @@
+{
+  "elevation": {
+    "$type": "shadow",
+    "$description": "Shadows. Keep them rare: ops UIs separate layers with surfaces and borders first.",
+    "raised": {
+      "$value": {
+        "color": {
+          "colorSpace": "oklch",
+          "components": [0, 0, 0],
+          "alpha": 0.4,
+          "hex": "#000000"
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 1,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 2,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "$description": "Slight lift for raised panels and sticky headers."
+    },
+    "overlay": {
+      "$value": {
+        "color": {
+          "colorSpace": "oklch",
+          "components": [0, 0, 0],
+          "alpha": 0.5,
+          "hex": "#000000"
+        },
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 8,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 24,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "$description": "Menus, popovers, dialogs, and toasts."
+    }
+  }
+}
