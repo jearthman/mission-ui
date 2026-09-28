@@ -1,0 +1,15 @@
+{
+  "motion": {
+    "duration": {
+      "short": {
+        "$value": "{duration.0}"
+      },
+      "medium": {
+        "$value": "{duration.0}"
+      },
+      "long": {
+        "$value": "{duration.0}"
+      }
+    }
+  }
+}

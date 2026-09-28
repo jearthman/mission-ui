@@ -1,0 +1,140 @@
+{
+  "dimension": {
+    "0": {
+      "$value": {
+        "value": 0,
+        "unit": "rem"
+      }
+    },
+    "4": {
+      "$value": {
+        "value": 0.25,
+        "unit": "rem"
+      }
+    },
+    "8": {
+      "$value": {
+        "value": 0.5,
+        "unit": "rem"
+      }
+    },
+    "12": {
+      "$value": {
+        "value": 0.75,
+        "unit": "rem"
+      }
+    },
+    "16": {
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      }
+    },
+    "20": {
+      "$value": {
+        "value": 1.25,
+        "unit": "rem"
+      }
+    },
+    "24": {
+      "$value": {
+        "value": 1.5,
+        "unit": "rem"
+      }
+    },
+    "28": {
+      "$value": {
+        "value": 1.75,
+        "unit": "rem"
+      }
+    },
+    "32": {
+      "$value": {
+        "value": 2,
+        "unit": "rem"
+      }
+    },
+    "36": {
+      "$value": {
+        "value": 2.25,
+        "unit": "rem"
+      }
+    },
+    "40": {
+      "$value": {
+        "value": 2.5,
+        "unit": "rem"
+      }
+    },
+    "48": {
+      "$value": {
+        "value": 3,
+        "unit": "rem"
+      }
+    },
+    "64": {
+      "$value": {
+        "value": 4,
+        "unit": "rem"
+      }
+    },
+    "$type": "dimension",
+    "$description": "Raw dimension scale in rem. The key is the size in px at the default 16 px root."
+  },
+  "radius": {
+    "0": {
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "2": {
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      }
+    },
+    "4": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "8": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "$type": "dimension",
+    "$description": "Corner radii in px. Ops UIs keep corners small.",
+    "full": {
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      }
+    }
+  },
+  "border-width": {
+    "1": {
+      "$value": {
+        "value": 1,
+        "unit": "px"
+      }
+    },
+    "2": {
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      }
+    },
+    "3": {
+      "$value": {
+        "value": 3,
+        "unit": "px"
+      }
+    },
+    "$type": "dimension",
+    "$description": "Hairline widths in px."
+  }
+}

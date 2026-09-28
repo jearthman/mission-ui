@@ -1,0 +1,36 @@
+{
+  "motion": {
+    "duration": {
+      "$type": "duration",
+      "$description": "Transition durations. All are nonessential and drop to 0 under reduced motion; essential animation (progress, loading) must not use them.",
+      "short": {
+        "$value": "{duration.100}",
+        "$description": "Hover, press, and color changes."
+      },
+      "medium": {
+        "$value": "{duration.200}",
+        "$description": "Popovers, menus, and toasts entering or leaving."
+      },
+      "long": {
+        "$value": "{duration.300}",
+        "$description": "Panels and dialogs entering or leaving."
+      }
+    },
+    "easing": {
+      "$type": "cubicBezier",
+      "$description": "Easing curves.",
+      "standard": {
+        "$value": "{easing.standard}",
+        "$description": "Elements moving or changing on screen."
+      },
+      "enter": {
+        "$value": "{easing.decelerate}",
+        "$description": "Elements entering the screen."
+      },
+      "exit": {
+        "$value": "{easing.accelerate}",
+        "$description": "Elements leaving the screen."
+      }
+    }
+  }
+}

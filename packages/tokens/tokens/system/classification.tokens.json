@@ -1,0 +1,96 @@
+{
+  "classification": {
+    "$type": "color",
+    "$description": "Classification banner and portion-marking colors, following the SF 706-712 labels and SF-902 purple for CUI (Astro). Used only by marking components. Never reuse them as status or decorative colors, and never theme them.",
+    "unclassified": {
+      "$description": "UNCLASSIFIED marking.",
+      "background": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.50606, 0.14211, 149.19577],
+          "hex": "#007a33"
+        },
+        "$description": "UNCLASSIFIED banner and marking background (#007a33)."
+      },
+      "text": {
+        "$value": "{color.gray.0}",
+        "$description": "UNCLASSIFIED banner and marking text (white)."
+      }
+    },
+    "cui": {
+      "$description": "CUI marking.",
+      "background": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.3876, 0.14354, 298.29316],
+          "hex": "#502b85"
+        },
+        "$description": "CUI banner and marking background (#502b85)."
+      },
+      "text": {
+        "$value": "{color.gray.0}",
+        "$description": "CUI banner and marking text (white)."
+      }
+    },
+    "confidential": {
+      "$description": "CONFIDENTIAL marking.",
+      "background": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.37808, 0.18211, 262.50995],
+          "hex": "#0033a0"
+        },
+        "$description": "CONFIDENTIAL banner and marking background (#0033a0)."
+      },
+      "text": {
+        "$value": "{color.gray.0}",
+        "$description": "CONFIDENTIAL banner and marking text (white)."
+      }
+    },
+    "secret": {
+      "$description": "SECRET marking.",
+      "background": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.53037, 0.2074, 22.31743],
+          "hex": "#c8102e"
+        },
+        "$description": "SECRET banner and marking background (#c8102e)."
+      },
+      "text": {
+        "$value": "{color.gray.0}",
+        "$description": "SECRET banner and marking text (white)."
+      }
+    },
+    "top-secret": {
+      "$description": "TOP SECRET marking.",
+      "background": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.75054, 0.17911, 58.28268],
+          "hex": "#ff8c00"
+        },
+        "$description": "TOP SECRET banner and marking background (#ff8c00)."
+      },
+      "text": {
+        "$value": "{color.gray.1000}",
+        "$description": "TOP SECRET banner and marking text (black)."
+      }
+    },
+    "top-secret-sci": {
+      "$description": "TOP SECRET//SCI marking.",
+      "background": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.91971, 0.17857, 102.4129],
+          "hex": "#fce83a"
+        },
+        "$description": "TOP SECRET//SCI banner and marking background (#fce83a)."
+      },
+      "text": {
+        "$value": "{color.gray.1000}",
+        "$description": "TOP SECRET//SCI banner and marking text (black)."
+      }
+    }
+  }
+}

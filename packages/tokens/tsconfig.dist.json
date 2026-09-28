@@ -1,0 +1,9 @@
+{
+  "extends": "@mission-ui/tsconfig/base.json",
+  "compilerOptions": {
+    "rootDir": "dist",
+    "outDir": "dist",
+    "declaration": true
+  },
+  "files": ["dist/tokens.ts"]
+}

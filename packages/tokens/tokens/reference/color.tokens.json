@@ -1,0 +1,1015 @@
+{
+  "color": {
+    "$type": "color",
+    "$description": "Reference palette. Authored in OKLCH inside the sRGB gamut; hex is the computed sRGB fallback. Only system tokens may reference these.",
+    "gray": {
+      "0": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [1, 0, 255],
+          "hex": "#ffffff"
+        }
+      },
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.975, 0.005, 255],
+          "hex": "#f4f7fa"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.945, 0.006, 255],
+          "hex": "#eaedf1"
+        }
+      },
+      "150": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.915, 0.006, 255],
+          "hex": "#e0e3e7"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.88, 0.007, 255],
+          "hex": "#d4d8dc"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.008, 255],
+          "hex": "#babec3"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.7, 0.01, 255],
+          "hex": "#9a9fa5"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.6, 0.011, 255],
+          "hex": "#7c8187"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.52, 0.013, 255],
+          "hex": "#646970"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.44, 0.014, 255],
+          "hex": "#4d535a"
+        }
+      },
+      "750": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.39, 0.015, 255],
+          "hex": "#40464d"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.345, 0.015, 255],
+          "hex": "#343a41"
+        }
+      },
+      "850": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.3, 0.016, 255],
+          "hex": "#282e36"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.017, 255],
+          "hex": "#1f252c"
+        }
+      },
+      "925": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.235, 0.017, 255],
+          "hex": "#191f26"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.21, 0.017, 255],
+          "hex": "#131920"
+        }
+      },
+      "975": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.18, 0.017, 255],
+          "hex": "#0d1219"
+        }
+      },
+      "1000": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0, 0, 255],
+          "hex": "#000000"
+        }
+      },
+      "$description": "Cool neutral ramp (hue 255). 0 is white, 1000 is black; the dark steps carry ops surfaces."
+    },
+    "blue": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.014, 258],
+          "hex": "#eff6ff"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.033, 258],
+          "hex": "#dbe9fe"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.062, 258],
+          "hex": "#bbd6fe"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.098, 258],
+          "hex": "#96c0fd"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.142, 258],
+          "hex": "#6aa5fc"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.184, 258],
+          "hex": "#3b89f9"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.19, 258],
+          "hex": "#1a6fe1"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.172, 258],
+          "hex": "#0858bc"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.144, 258],
+          "hex": "#044393"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.115, 258],
+          "hex": "#022f6c"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.093, 258],
+          "hex": "#012150"
+        }
+      },
+      "$description": "Interactive accent ramp."
+    },
+    "red": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.014, 25],
+          "hex": "#fff2f0"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.034, 25],
+          "hex": "#fee0dd"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.067, 25],
+          "hex": "#fec4be"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.111, 25],
+          "hex": "#fda199"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.169, 25],
+          "hex": "#fd746d"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.219, 25],
+          "hex": "#f53d41"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.219, 25],
+          "hex": "#d71528"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.189, 25],
+          "hex": "#af0c1e"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.157, 25],
+          "hex": "#890815"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.126, 25],
+          "hex": "#64040c"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.102, 25],
+          "hex": "#4a0207"
+        }
+      },
+      "$description": "Critical status ramp. Red means urgent; never use it decoratively."
+    },
+    "orange": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.016, 52],
+          "hex": "#fff2ec"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.039, 52],
+          "hex": "#fee1d1"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.077, 52],
+          "hex": "#fec7a6"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.125, 52],
+          "hex": "#fda670"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.18, 52],
+          "hex": "#f97d14"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.16, 52],
+          "hex": "#d56a10"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.14, 52],
+          "hex": "#b2580b"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.12, 52],
+          "hex": "#904607"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.1, 52],
+          "hex": "#703504"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.08, 52],
+          "hex": "#512502"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.043, 52],
+          "hex": "#341e0f"
+        }
+      },
+      "$description": "Serious status ramp."
+    },
+    "yellow": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.047, 95],
+          "hex": "#fff6d2"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.108, 95],
+          "hex": "#fee892"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.173, 95],
+          "hex": "#f8d221"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.159, 95],
+          "hex": "#debb1c"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.143, 95],
+          "hex": "#c1a217"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.127, 95],
+          "hex": "#a48a13"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.112, 95],
+          "hex": "#89730b"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.08, 95],
+          "hex": "#6c5d22"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.029, 95],
+          "hex": "#4c4836"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.023, 95],
+          "hex": "#363326"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.023, 95],
+          "hex": "#272417"
+        }
+      },
+      "$description": "Caution status ramp."
+    },
+    "green": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.05, 145],
+          "hex": "#e1ffe1"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.125, 145],
+          "hex": "#b2feb4"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.182, 145],
+          "hex": "#7ef385"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.195, 145],
+          "hex": "#5ddd68"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.2, 145],
+          "hex": "#39c34b"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.195, 145],
+          "hex": "#15a932"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.171, 145],
+          "hex": "#0f8d28"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.146, 145],
+          "hex": "#0b721f"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.118, 145],
+          "hex": "#0c5718"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.072, 145],
+          "hex": "#183c1a"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.031, 145],
+          "hex": "#1a281b"
+        }
+      },
+      "$description": "Normal status ramp."
+    },
+    "cyan": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.02, 222],
+          "hex": "#e7f9ff"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.046, 222],
+          "hex": "#c7f0fe"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.088, 222],
+          "hex": "#91e2fe"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.138, 222],
+          "hex": "#31d1fd"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.129, 222],
+          "hex": "#1ab6de"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.115, 222],
+          "hex": "#139bbe"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.1, 222],
+          "hex": "#10819e"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.086, 222],
+          "hex": "#0a6880"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.072, 222],
+          "hex": "#055063"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.041, 222],
+          "hex": "#183842"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.017, 222],
+          "hex": "#1b262a"
+        }
+      },
+      "$description": "Standby status ramp and focus accents."
+    },
+    "teal": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.041, 188],
+          "hex": "#d7fffa"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.102, 188],
+          "hex": "#92fef4"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.118, 188],
+          "hex": "#68ede3"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.127, 188],
+          "hex": "#3ad8cd"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.121, 188],
+          "hex": "#1cbcb3"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.108, 188],
+          "hex": "#15a198"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.094, 188],
+          "hex": "#11867f"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.081, 188],
+          "hex": "#0a6c66"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.067, 188],
+          "hex": "#07534e"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.047, 188],
+          "hex": "#0f3a37"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.02, 188],
+          "hex": "#192726"
+        }
+      },
+      "$description": "Categorical data ramp."
+    },
+    "violet": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.016, 298],
+          "hex": "#f6f3ff"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.037, 298],
+          "hex": "#eae3fe"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.071, 298],
+          "hex": "#d9cbfe"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.113, 298],
+          "hex": "#c6aefd"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.163, 298],
+          "hex": "#b28bfc"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.184, 298],
+          "hex": "#9c6deb"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.19, 298],
+          "hex": "#8552d3"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.186, 298],
+          "hex": "#6d3ab6"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.173, 298],
+          "hex": "#562496"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.15, 298],
+          "hex": "#3f1273"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.126, 298],
+          "hex": "#2e0957"
+        }
+      },
+      "$description": "Categorical data ramp."
+    },
+    "magenta": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.018, 345],
+          "hex": "#fff1f8"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.043, 345],
+          "hex": "#feddee"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.085, 345],
+          "hex": "#febee1"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.141, 345],
+          "hex": "#fd97d2"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.188, 345],
+          "hex": "#f36cbf"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.199, 345],
+          "hex": "#db4da7"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.199, 345],
+          "hex": "#bf318f"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.188, 345],
+          "hex": "#a01875"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.165, 345],
+          "hex": "#7f075b"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.132, 345],
+          "hex": "#5c0342"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.107, 345],
+          "hex": "#44022f"
+        }
+      },
+      "$description": "Categorical data ramp."
+    },
+    "amber": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.023, 75],
+          "hex": "#fff3e5"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.056, 75],
+          "hex": "#fee3bf"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.107, 75],
+          "hex": "#feca82"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.164, 75],
+          "hex": "#faac1a"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.147, 75],
+          "hex": "#d99517"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.131, 75],
+          "hex": "#ba7f11"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.115, 75],
+          "hex": "#9b690b"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.098, 75],
+          "hex": "#7d5408"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.082, 75],
+          "hex": "#614004"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.038, 75],
+          "hex": "#3e301c"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.02, 75],
+          "hex": "#2a2319"
+        }
+      },
+      "$description": "Categorical data ramp."
+    },
+    "lime": {
+      "50": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.97, 0.069, 128],
+          "hex": "#e8ffcd"
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.93, 0.177, 128],
+          "hex": "#c5fe74"
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.87, 0.186, 128],
+          "hex": "#b0ea56"
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.8, 0.19, 128],
+          "hex": "#9ad335"
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.72, 0.183, 128],
+          "hex": "#83b915"
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.64, 0.162, 128],
+          "hex": "#6f9d12"
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.56, 0.142, 128],
+          "hex": "#5c830d"
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.48, 0.112, 128],
+          "hex": "#4b6918"
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.4, 0.068, 128],
+          "hex": "#3d4f25"
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.32, 0.023, 128],
+          "hex": "#2f3529"
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [0.26, 0.023, 128],
+          "hex": "#21261a"
+        }
+      },
+      "$description": "Categorical data ramp."
+    }
+  }
+}

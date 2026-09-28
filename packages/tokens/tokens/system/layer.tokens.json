@@ -1,0 +1,42 @@
+{
+  "z": {
+    "$type": "number",
+    "$description": "Stacking order. z.marking is always highest: nothing may occlude the overall classification banner.",
+    "base": {
+      "$value": 0,
+      "$description": "Normal document flow."
+    },
+    "raised": {
+      "$value": 10,
+      "$description": "Content lifted within its container, such as a dragged row."
+    },
+    "sticky": {
+      "$value": 100,
+      "$description": "Sticky table headers and docked toolbars."
+    },
+    "dropdown": {
+      "$value": 1000,
+      "$description": "Select and combo box listboxes attached to a control."
+    },
+    "overlay": {
+      "$value": 1100,
+      "$description": "Modal dialogs and their backdrops."
+    },
+    "popover": {
+      "$value": 1200,
+      "$description": "Menus and popovers, which may open from inside a dialog."
+    },
+    "toast": {
+      "$value": 1300,
+      "$description": "Toast notifications."
+    },
+    "tooltip": {
+      "$value": 1400,
+      "$description": "Tooltips."
+    },
+    "marking": {
+      "$value": 2000,
+      "$description": "Classification banners. Above every overlay, including dialogs and toasts."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "space": {
+    "0": {
+      "$value": "{dimension.0}",
+      "$description": "No space. Also backs inset-0, m-0, and similar utilities."
+    },
+    "1": {
+      "$value": "{dimension.4}",
+      "$description": "4 px. Icon-to-label gaps and tight clusters."
+    },
+    "2": {
+      "$value": "{dimension.8}",
+      "$description": "8 px. Gaps between related controls."
+    },
+    "3": {
+      "$value": "{dimension.12}",
+      "$description": "12 px. Default gap inside panels."
+    },
+    "4": {
+      "$value": "{dimension.16}",
+      "$description": "16 px. Gaps between groups; icon size."
+    },
+    "5": {
+      "$value": "{dimension.20}",
+      "$description": "20 px. Large icon size."
+    },
+    "6": {
+      "$value": "{dimension.24}",
+      "$description": "24 px. Gaps between sections."
+    },
+    "8": {
+      "$value": "{dimension.32}",
+      "$description": "32 px. Page-level separation."
+    },
+    "10": {
+      "$value": "{dimension.40}",
+      "$description": "40 px. Large separation."
+    },
+    "12": {
+      "$value": "{dimension.48}",
+      "$description": "48 px. Empty states and dashboards."
+    },
+    "16": {
+      "$value": "{dimension.64}",
+      "$description": "64 px. Rare; splash layouts."
+    },
+    "$type": "dimension",
+    "$description": "Layout spacing in 4 px steps: the key is the multiple of 4 px, as in Tailwind (space.4 is p-4, 16 px). Fixed across densities; density-dependent spacing lives in density tokens."
+  }
+}

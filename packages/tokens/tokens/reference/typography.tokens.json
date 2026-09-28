@@ -1,0 +1,87 @@
+{
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "$description": "Typeface stacks. IBM Plex is SIL OFL and self-hosted in Step 2; the fallbacks cover the gap until then.",
+      "plex-sans": {
+        "$value": [
+          "IBM Plex Sans",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "sans-serif"
+        ]
+      },
+      "plex-mono": {
+        "$value": [
+          "IBM Plex Mono",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Consolas",
+          "Liberation Mono",
+          "Menlo",
+          "monospace"
+        ]
+      }
+    },
+    "size": {
+      "12": {
+        "$value": {
+          "value": 0.75,
+          "unit": "rem"
+        }
+      },
+      "14": {
+        "$value": {
+          "value": 0.875,
+          "unit": "rem"
+        }
+      },
+      "16": {
+        "$value": {
+          "value": 1,
+          "unit": "rem"
+        }
+      },
+      "20": {
+        "$value": {
+          "value": 1.25,
+          "unit": "rem"
+        }
+      },
+      "24": {
+        "$value": {
+          "value": 1.5,
+          "unit": "rem"
+        }
+      },
+      "32": {
+        "$value": {
+          "value": 2,
+          "unit": "rem"
+        }
+      },
+      "$type": "dimension",
+      "$description": "Type sizes in rem. The key is the size in px at the default 16 px root."
+    },
+    "weight": {
+      "400": {
+        "$value": 400
+      },
+      "500": {
+        "$value": 500
+      },
+      "600": {
+        "$value": 600
+      },
+      "700": {
+        "$value": 700
+      },
+      "$type": "fontWeight",
+      "$description": "Font weights available in IBM Plex."
+    }
+  }
+}
